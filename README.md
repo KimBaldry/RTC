@@ -28,7 +28,6 @@ python -m pip install ./s1-reader
 
 4. Install `RTC` via pip:
 ```bash
-git clone https://github.com/opera-adt/s1-reader.git s1-reader
 python -m pip install ./RTC
 ```
 
@@ -45,7 +44,7 @@ rtc_s1.py <path to rtc yaml file>
 To compare the RTC-S1 products, use `rtc_compare.py`.
 
 ```bash
-python rtc_s1.py <1st product HDF5> <2nd product HDF5>
+python rtc_compare.py <1st product HDF5> <2nd product HDF5>
 ```
 
 # License
